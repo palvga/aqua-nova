@@ -1,0 +1,10 @@
+# Local preview and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Temporary working material
+work/
+
+# Local delivery copy; GitHub Pages deploys the repository root
+outputs/

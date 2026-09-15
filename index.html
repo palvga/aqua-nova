@@ -4,24 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="AQUA NOVA — automatizări inteligente pentru captarea, tratarea și distribuția apei." />
-    <title>AQUA NOVA | Automatizări pentru apă</title>
+    <title>AQUA NOVA | Automatizări și monitorizare pentru apă</title>
+    <link rel="canonical" href="https://palvga.github.io/aqua-nova/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ro_RO" />
+    <meta property="og:title" content="AQUA NOVA | Automatizări și monitorizare pentru apă" />
+    <meta property="og:description" content="Monitorizare rețele, detecția pierderilor, automatizare și managementul puțurilor de adâncime." />
+    <meta property="og:url" content="https://palvga.github.io/aqua-nova/" />
+    <meta property="og:image" content="https://palvga.github.io/aqua-nova/assets/hero-management-puturi.png" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"AQUA NOVA","url":"https://palvga.github.io/aqua-nova/","email":"contact@aquanova.ro","telephone":"+40770344004","address":{"@type":"PostalAddress","streetAddress":"Str. Ștefan cel Mare, nr. 104","addressLocality":"Vaslui","addressCountry":"RO"},"areaServed":"Romania","serviceType":["Detecția pierderilor de apă","Monitorizarea rețelelor de apă","Automatizarea și evaluarea puțurilor"]}</script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#continut">Sari la conținut</a>
     <div class="cursor-glow"></div>
     <header class="nav">
       <a class="brand" href="#acasa" aria-label="Aqua Nova acasă"><span class="brand-mark">⌇</span>AQUA<span>NOVA</span></a>
-      <button class="menu-toggle" aria-label="Deschide meniul"><i></i><i></i></button>
-      <nav>
-        <a href="#acasa">Acasă</a><a href="puturi-forate.html">Management puturi</a><a href="#solutii">Soluții</a><a href="#despre">Despre noi</a><a href="#proiecte">Proiecte</a>
+      <button class="menu-toggle" type="button" aria-label="Deschide meniul" aria-expanded="false" aria-controls="navigatie-principala"><i></i><i></i></button>
+      <nav id="navigatie-principala">
+        <a href="#acasa">Acasă</a><a href="#detectie-pierderi">Detecția pierderilor</a><a href="monitorizare-retele.html">Monitorizare rețele</a><a href="puturi-forate.html">Management puțuri</a><a href="#proiecte">Proiecte</a>
         <a class="nav-cta" href="#contact">Discută cu un inginer <b>↗</b></a>
       </nav>
     </header>
 
-    <main id="acasa">
+    <main id="acasa"><span id="continut"></span>
       <section class="hero">
         <div class="hero-grid"></div><div class="orb orb-one"></div><div class="orb orb-two"></div>
         <div class="hero-copy reveal">
@@ -31,7 +40,7 @@
           <div class="hero-actions"><a class="button primary" href="#contact">Solicită o consultanță <b>→</b></a><a class="text-link" href="#solutii">Explorează soluțiile <span>↓</span></a></div>
         </div>
         <div class="hero-visual reveal delay-1">
-          <div class="status-card"><span class="status-dot"></span> Sistem online <strong>99.98%</strong></div>
+          <div class="status-card"><span class="status-dot"></span> Monitorizare <strong>24 / 7</strong></div>
           <div class="image-frame hero-image"><img src="https://images.unsplash.com/photo-1578496480157-697fc14d2e55?auto=format&fit=crop&w=1400&q=85" alt="Instalație modernă de tratare a apei" /><div class="image-overlay"></div></div>
           <div class="waterline"><svg viewBox="0 0 600 100" preserveAspectRatio="none"><path d="M0 45 C100 95 170 0 270 46 S430 100 600 30" /></svg></div>
           <div class="metric-card"><small>DEBIT LIVE</small><strong>1.284 <i>m³/h</i></strong><div class="metric-line"><span></span></div></div>
@@ -50,7 +59,7 @@
 
       <section id="despre" class="impact section-pad">
         <div class="impact-image reveal"><img src="https://images.unsplash.com/photo-1559825481-12a05cc00344?auto=format&fit=crop&w=1400&q=85" alt="Apă limpede în mișcare" /><div class="image-label">PRECIZIE ÎN FIECARE DECIZIE</div></div>
-        <div class="impact-copy reveal delay-1"><p class="eyebrow"><span></span> IMPACT MĂSURABIL</p><h2>Mai puține pierderi.<br /><em>Mai multă apă.</em></h2><p>Nu vindem doar echipamente. Construim continuitate: pentru operatori, comunități și resursa care ne unește.</p><div class="stats"><div><strong>27<span>%</span></strong><small>reducere medie<br />a consumului de energie</small></div><div><strong>+42<span>M</span></strong><small>litri protejați<br />în fiecare an</small></div></div></div>
+        <div class="impact-copy reveal delay-1"><p class="eyebrow"><span></span> IMPACT MĂSURABIL</p><h2>Mai puține pierderi.<br /><em>Mai multă apă.</em></h2><p>Nu vindem doar echipamente. Construim continuitate: pentru operatori, comunități și resursa care ne unește.</p><div class="stats"><div><strong>24<span>/7</span></strong><small>date și alarme<br />pentru intervenții</small></div><div><strong>3<span>×</span></strong><small>măsurare, localizare<br />și verificare</small></div></div><p class="trust-note">Rezultatele se raportează pentru fiecare proiect prin comparații înainte/după: debit, presiune, consum energetic și semnale acustice.</p></div>
       </section>
 
       <section id="proiecte" class="projects section-pad"><div class="projects-top reveal"><div><p class="eyebrow"><span></span> PROIECTE RECENTE</p><h2>Infrastructură<br /><em>cu inteligență.</em></h2></div><a class="button outline" href="monitorizare-retele.html">Vezi toate proiectele <b>→</b></a></div><div class="project-list"><article class="project reveal"><span>01 / 02</span><img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=85" alt="Echipament tehnic" /><div><p>APĂ POTABILĂ · BRAȘOV</p><h3>O rețea care<br />anticipează cererea.</h3></div><a href="#contact">↗</a></article></div></section>
@@ -63,11 +72,11 @@
         <p style="max-width:760px;line-height:1.8;margin:24px 0;color:#416078">O pierdere subterană poate exista înainte ca apa să ajungă la suprafață. Monitorizarea zgomotului, corelarea și verificarea acustică în teren ajută la restrângerea zonei de căutare și la orientarea intervenției.</p>
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:28px;margin:40px 0">
           <article style="background:#fff;border:1px solid #d4e6ef;border-radius:12px;overflow:hidden">
-            <img src="https://sebakmt.com/wp-content/uploads/2024/07/hl7000_web.png" alt="Sistem SEBAKMT HL 7000 pentru detecția electroacustică a pierderilor de apă" loading="lazy" decoding="async" style="display:block;width:100%;height:300px;object-fit:contain;padding:24px;box-sizing:border-box;background:#fff" />
+            <img src="assets/sebakmt-hl7000.png" alt="Sistem SEBAKMT HL 7000 pentru detecția electroacustică a pierderilor de apă" loading="lazy" decoding="async" style="display:block;width:100%;height:300px;object-fit:contain;padding:24px;box-sizing:border-box;background:#fff" />
             <div style="padding:28px"><p style="font:12px 'DM Mono',monospace;color:#197392;letter-spacing:1px">LOCALIZARE ELECTROACUSTICĂ</p><h3 style="font-size:28px;margin:12px 0">SEBAKMT HL 7000</h3><p style="line-height:1.8;color:#416078">Microfonul de sol captează zgomotul produs de apa care iese din conductă. Analiza frecvențelor și filtrele reglabile sprijină identificarea semnalului de pierdere în prezența zgomotului ambiental.</p><p style="line-height:1.8;color:#416078;margin-top:12px">Sistemul dispune de conexiune Bluetooth, înregistrare audio și GPS integrat. Opțional, poate utiliza un senzor pentru gaz trasor atunci când metoda acustică necesită completare.</p><a href="https://sebakmt.com/en/products/ground-microphone/hl-7000-electro-acoustic-leak-detection/" target="_blank" rel="noopener noreferrer" style="display:inline-block;margin-top:20px;color:#075b83;text-decoration:underline">Detalii oficiale HL 7000 ↗</a></div>
           </article>
           <article style="background:#fff;border:1px solid #d4e6ef;border-radius:12px;overflow:hidden">
-            <img src="https://sebakmt.com/wp-content/uploads/2025/01/correlux_c3-589x650.png" alt="Corelator SEBAKMT Correlux C-3 pentru localizarea pierderilor din conducte" loading="lazy" decoding="async" style="display:block;width:100%;height:300px;object-fit:contain;padding:24px;box-sizing:border-box;background:#fff" />
+            <img src="assets/sebakmt-correlux-c3.png" alt="Corelator SEBAKMT Correlux C-3 pentru localizarea pierderilor din conducte" loading="lazy" decoding="async" style="display:block;width:100%;height:300px;object-fit:contain;padding:24px;box-sizing:border-box;background:#fff" />
             <div style="padding:28px"><p style="font:12px 'DM Mono',monospace;color:#197392;letter-spacing:1px">CORELAREA ZGOMOTULUI DE PIERDERE</p><h3 style="font-size:28px;margin:12px 0">SEBAKMT Correlux C-3</h3><p style="line-height:1.8;color:#416078">Doi senzori amplasați pe puncte accesibile ale rețelei, precum vane sau hidranți, înregistrează zgomotul pierderii. Corelatorul estimează poziția acesteia folosind diferența de timp dintre semnale, distanța dintre senzori și viteza de propagare a sunetului.</p><p style="line-height:1.8;color:#416078;margin-top:12px">Permite corelare online, pentru măsurători imediate, și offline, pe baza înregistrărilor. Configurația se adaptează materialului conductei și condițiilor din teren.</p><a href="https://sebakmt.com/en/products/correlator/correlux-c-3-correlator-for-drinking-water-networks/" target="_blank" rel="noopener noreferrer" style="display:inline-block;margin-top:20px;color:#075b83;text-decoration:underline">Detalii oficiale Correlux C-3 ↗</a></div>
           </article>
         </div>
@@ -82,8 +91,8 @@
         <a class="button primary" href="#contact" style="margin-top:28px">Discută despre detecția pierderilor <b>→</b></a>
         <p style="font-size:12px;color:#526b7c;line-height:1.7;margin-top:24px">Fotografii și informații despre echipamente: SebaKMT® / Megger Germany GmbH. Echipamentele sunt prezentate ca exemple de tehnologie pentru detecția pierderilor.</p>
       </section>
-      <section id="contact" class="contact"><div class="contact-rings"></div><div class="contact-content reveal"><p class="eyebrow"><span></span> SĂ ÎNCEPEM</p><h2>Apa are un drum.<br /><em>Îi dăm inteligență.</em></h2><a class="button light" href="mailto:contact@aquanova.ro">contact@aquanova.ro <b>→</b></a><p class="contact-note">Str. Ștefan cel Mare, nr. 104, Municipiul Vaslui &nbsp; · &nbsp; Tel. 0770 344 004</p></div></section></main>
-    <footer><a class="brand" href="#acasa"><span class="brand-mark">⌇</span>AQUA<span>NOVA</span></a><p>© 2026 AQUA NOVA. SISTEME CU SENS.</p><div><a href="#">LinkedIn</a><a href="#">Instagram</a></div></footer>
+      <section id="contact" class="contact"><div class="contact-rings"></div><div class="contact-shell"><div class="contact-content reveal"><p class="eyebrow"><span></span> SĂ ÎNCEPEM</p><h2>Apa are un drum.<br /><em>Îi dăm inteligență.</em></h2><p class="intro">Descrie instalația și problema observată. Formularul pregătește un e-mail structurat pentru echipa noastră.</p><p class="contact-note">Str. Ștefan cel Mare, nr. 104, Municipiul Vaslui<br><a href="tel:+40770344004">0770 344 004</a> · <a href="mailto:contact@aquanova.ro">contact@aquanova.ro</a></p></div><form class="contact-form reveal delay-1" data-email-form><label>Nume / companie<input name="nume" autocomplete="name" required></label><label>Telefon<input name="telefon" type="tel" autocomplete="tel" required></label><label>Localitate<input name="localitate" autocomplete="address-level2" required></label><label>Serviciul dorit<select name="serviciu"><option>Detecția pierderilor</option><option>Monitorizarea rețelei</option><option>Evaluarea unui puț</option><option>Automatizare și SCADA</option><option>Alt serviciu</option></select></label><label class="wide">Detalii<textarea name="mesaj" required placeholder="Tipul instalației, simptomele observate și datele disponibile"></textarea></label><button class="button light wide" type="submit">Pregătește solicitarea <b>→</b></button><p class="form-note">La apăsare se deschide aplicația ta de e-mail. Mesajul este trimis numai după confirmarea ta. Vezi <a href="politica-confidentialitate.html">politica de confidențialitate</a>.</p></form></div></section></main>
+    <a class="mobile-contact" href="tel:+40770344004">Sună un inginer · 0770 344 004</a><footer><a class="brand" href="#acasa"><span class="brand-mark">⌇</span>AQUA<span>NOVA</span></a><p>© 2026 AQUA NOVA. SISTEME CU SENS.</p><div><a href="politica-confidentialitate.html">Confidențialitate</a><a href="mailto:contact@aquanova.ro">E-mail</a></div></footer>
     <script src="script.js"></script>
   </body>
 </html>

@@ -39,6 +39,6 @@ document.querySelectorAll('[data-email-form]').forEach((form) => {
       'Detalii:',
       data.get('mesaj')
     ].join('\n');
-    window.location.href = `mailto:contact@aquanova.ro?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:szpaul2003@yahoo.co.uk?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   });
 });

@@ -8,3 +8,10 @@ work/
 
 # Local delivery copy; GitHub Pages deploys the repository root
 outputs/
+
+# Date private telecitire
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+.env
+.env.*

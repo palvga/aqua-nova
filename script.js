@@ -29,7 +29,7 @@ document.querySelectorAll('[data-email-form]').forEach((form) => {
   form.addEventListener('submit', (event) => {
     event.preventDefault();
     const data = new FormData(form);
-    const subject = `Solicitare AQUA NOVA — ${data.get('serviciu')}`;
+    const subject = `Solicitare AQUA-NOVA – VASLUI — ${data.get('serviciu')}`;
     const body = [
       `Nume / companie: ${data.get('nume')}`,
       `Telefon: ${data.get('telefon')}`,
